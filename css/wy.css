@@ -1,0 +1,809 @@
+
+html,body{
+    width: 100%;
+    height: 100%;overflow: hidden;
+}
+#fullpage{
+    width: 100%;
+    height: 100%;
+    transition: margin 1s ease;
+    /*background: rebeccapurple;*/
+}
+.section{
+    width: 100%;
+    height: 100%;
+}
+#fullpage .section{
+    background-size: cover;
+}
+#fullpage .section:nth-child(1){
+    background: url("../img/section1.jpg") no-repeat;
+    background-position: center center;
+}
+#fullpage .section:nth-child(2){
+    background: url("../img/section2.jpg") no-repeat;
+}
+#fullpage .section:nth-child(3){
+    background: url("../img/section3.jpg") no-repeat;
+}
+#fullpage .section:nth-child(4){
+    background: url("../img/section4.jpg") no-repeat;
+}
+#fullpage .section:nth-child(5){
+    background: url("../img/section5.jpg") no-repeat;
+}
+#fullpage .section:nth-child(6){
+    background: url("../img/section6.jpg") no-repeat;
+}
+#fullpage .section:nth-child(7){
+    background: url("../img/section7.jpg") no-repeat;
+}
+#fullpage .section:nth-child(8){
+    background: url("../img/section8.jpg") no-repeat;
+}
+#fullpage .section:nth-child(9){
+    background: url("../img/section9.jpg") no-repeat;
+}
+#fullpage .section:nth-child(10){
+    background: url("../img/section10.jpg") no-repeat;
+}
+/*第一屏*/
+.con1 .con1d{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.con1 .con1d .con1-1{
+    width: 100%;
+    height: 100%;
+    background: url("../img/bg13.png") no-repeat;
+    position: absolute;
+    top:100%;
+    left: 0;
+    transition: all 1s;
+}
+.con1 .con1d .con1-2{
+    width: 100%;
+    height: 100%;
+    background: url("../img/bg12.png") no-repeat;
+    position: absolute;
+    top:87%;
+    left: 0;
+    transition-delay: 2s;
+    transition: all 2s;
+}
+.con1 .con1d .con1-3{
+    width: 100%;
+    height: 100%;
+    background: url("../img/logo.png") no-repeat;
+    position: absolute;
+    top:0;
+    left: 36%;
+    transition: all 1s;
+}
+.con1 .con1d .con1-4{
+    width: 554px;
+    height: 176px;
+    background: url("../img/slogan.png") no-repeat;
+    position: absolute;
+    top:23%;
+    left: 30%;
+    transition: all 1s;
+    transform: scale(0.5,0.5);
+}
+.con1 .con1d .con1-5 p{
+    font-size: 16px;
+    color:#94a7c6;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:50%;
+    left: 30%;
+    opacity: 0;
+    transition: all 1s;
+    transition-delay: 2s;
+}
+/*第二屏*/
+.con2 .con2d{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.con2 .con2d .con2-1{
+    width: 819px;
+    height: 299px;
+    background: url("../img/bg22.png") no-repeat;
+    position: absolute;
+    top:30%;
+    left: 100%;
+    transition: all 1s;
+}
+.con2 .con2d .con2-2{
+    width: 819px;
+    height: 299px;
+    background: url("../img/bg21.png") no-repeat;
+    position: absolute;
+    top:40%;
+    left: -20%;
+    transition: all 1s;
+}
+.con2 .con2d .con2-3{
+    width: 819px;
+    height: 299px;
+    background: url("../img/bg23.png") no-repeat;
+    position: absolute;
+    bottom:-50%;
+    left: 20%;
+    transition: all 1s;
+}
+.con2 .con2d .con2-4{
+    width: 819px;
+    height: 299px;
+    background: url("../img/t2.png") no-repeat;
+    position: absolute;
+    top:25%;
+    left: 30%;
+    transition: all 1s;
+    transform: scale(0.5,0.5);
+}
+.con2 .con2d .con2-5 strong{
+    width: 512px;
+    height: 45px;
+    font-size: 24px;
+    font-weight: 500;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    color: #748A9E;
+    transition: all 1s;
+    transform: scale(0.5,0.5);
+}
+.con2 .con2d .con2-6 p{
+    font-size: 16px;
+    color:#94a7c6;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:35%;
+    left: 30%;
+    opacity: 0;
+    transition: all 1s;
+    transition-delay: 2s;
+    z-index: 9999;
+}
+/*第三屏*/
+.con3 .con3d{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.con3 .con3d .con3-1{
+    width: 100%;
+    height: 100%;
+    background: url("../img/bg33.png") no-repeat;
+    position: absolute;
+    top:45%;
+    left: 100%;
+    z-index: 12;
+    transition: all 1s;
+}
+.con3 .con3d .con3-2{
+    width: 892px;
+    height: 472px;
+    background: url("../img/bg32.png") no-repeat;
+    position: absolute;
+    top:70%;
+    left: 60%;
+    transition: all 1s;
+    opacity: 0;
+}
+.con3 .con3d .con3-3{
+    width: 892px;
+    height: 472px;
+    background: url("../img/bg31.png") no-repeat;
+    position: absolute;
+    top:20%;
+    left: 20%;
+    transition: all 1s;
+    opacity: 0;
+}
+.con3 .con3d .con3-4 strong{
+    font-size: 24px;
+    font-weight: 500;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    color: #748A9E;
+    z-index: 23;
+    transition: all 1s;
+    transform: scale(0.5,0.5);
+}
+.con3 .con3d .con3-5 p{
+    line-height: 1em;
+    font-size: 16px;
+    color:#fff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:50%;
+    left: -50%;
+    /*opacity: 0;*/
+    transition: all 1s;
+    /*transition-delay: 2s;*/
+    z-index: 9999;
+}
+.con3 .con3d .con3-6{
+    width: 819px;
+    height: 299px;
+    background: url("../img/t3.png") no-repeat;
+    position: absolute;
+    top:25%;
+    left: 30%;
+    transition: all 1s;
+    transform: scale(0.5,0.5);
+}
+/*第四屏*/
+.con4.con4d{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.con4 .con4d .con4-1{
+    width: 100%;
+    height: 372px;
+    background: url("../img/bg41.png") 50% 0 no-repeat;
+    /*background: url("../img/bg33.png") no-repeat;*/
+    position: absolute;
+    top:100%;
+    transition: all 0.7s;
+}
+.con4 .con4d .con4-2{
+    width: 100%;
+    height: 449px;
+    background: url("../img/bg42.png") no-repeat;
+    position: absolute;
+    top:100%;
+    left: 8%;
+    transition: all 1.5s;
+}
+.con4 .con4d .con4-3{
+    width: 512px;
+    height: 45px;
+    background: url("../img/t4.png") no-repeat;
+    position: absolute;
+    top:25%;
+    left: 30%;
+    transition: all 1s;
+    transform: scale(0.5,0.5);
+}
+.con4 .con4d .con4-4 strong{
+    width: 512px;
+    height: 45px;
+    font-size: 24px;
+    font-weight: 500;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    color: #748A9E;
+    transition: all 1s;
+    transform: scale(0.5,0.5);
+}
+.con4 .con4d .con4-5 p{
+    font-size: 16px;
+    color:#94a7c6;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:40%;
+    left: 30%;
+    opacity: 0;
+    transition: all 1s;
+    transition-delay: 2s;
+    z-index: 9999;
+}
+/*第五屏*/
+.con5.con5d{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.con5 .con5d .con5-1{
+    width: 200px;
+    height:182px;
+    position: absolute;
+    top: 30%;
+    left: -10%;
+    background: url("../img/bg51.png") no-repeat;
+    transition: all 1s;
+    opacity: 0;
+    /*transition-delay: 0.7s;*/
+}
+.con5 .con5d .con5-1 h4{
+    position: absolute;
+    top: 120%;
+    left: 10%;
+    color: #fff;
+    font-size: 23px;
+    /*line-height: 40px;*/
+    font-weight: 500;
+    transition: all 1s;
+    opacity: 0;
+    /*transition-delay: 0.7s;*/
+}
+.con5 .con5d .con5-1 p{
+    position: absolute;
+    top: 150%;
+    left: 0;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.5em;
+    transition: all 1s;
+    opacity: 0;
+    /*transition-delay: 0.7s;*/
+}
+.con5 .con5d .con5-2{
+    width: 220px;
+    height:182px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    background: url("../img/bg52.png") no-repeat;
+    transition: all 1s;
+    opacity: 0;
+    /*transition-delay: 0.7s;*/
+}
+.con5 .con5d .con5-2 h4{
+    position: absolute;
+    top: 120%;
+    color: #fff;
+    left: 10%;
+    font-size: 23px;
+    /*line-height: 40px;*/
+    font-weight: 500;
+    transition: all 1s;
+    opacity: 0;
+    /*transition-delay: 0.7s;*/
+
+}
+.con5 .con5d .con5-2 p{
+    position: absolute;
+    top: 150%;
+    left: 0;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.5em;
+    transition: all 1s;
+    opacity: 0;
+    /*transition-delay: 0.7s;*/
+}
+.con5 .con5d .con5-3{
+    width: 200px;
+    height:182px;
+    position: absolute;
+    top: 30%;
+    left: 64%;
+    background: url("../img/bg53.png") no-repeat;
+    transition: all 1s;
+    opacity: 0;
+    /*transition-delay: 0.7s;*/
+}
+.con5 .con5d .con5-3 h4{
+    position: absolute;
+    top: 120%;
+    left: 0;
+    color: #fff;
+    font-size: 23px;
+    /*line-height: 40px;*/
+    font-weight: 500;
+    transition: all 1s;
+    opacity: 0;
+    /*transition-delay: 0.7s;*/
+
+}
+.con5 .con5d .con5-3 p{
+    position: absolute;
+    top: 150%;
+    left: 3%;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.5em;
+    transition: all 1s;
+    opacity: 0;
+    /*transition-delay: 0.7s;*/
+}
+.con5 .con5d .con5-4{
+    width: 200px;
+    height:182px;
+    position: absolute;
+    top: 30%;
+    left: 97%;
+    background: url("../img/bg54.png") no-repeat;
+    transition: all 1s;
+    opacity: 0;
+    /*transition-delay: 0.7s;*/
+}
+.con5 .con5d .con5-4 h4{
+    position: absolute;
+    top: 120%;
+    left: 0;
+    color: #fff;
+    font-size: 23px;
+    /*line-height: 40px;*/
+    font-weight: 500;
+    transition: all 1s;
+    opacity: 0;
+    /*transition-delay: 0.7s;*/
+
+}
+.con5 .con5d .con5-4 p{
+    position: absolute;
+    top: 150%;
+    left: 3%;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.5em;
+    transition: all 1s;
+    opacity: 0;
+    /*transition-delay: 0.7s;*/
+}
+.con5 .con5d .con5-5{
+    width: 819px;
+    height: 299px;
+    background: url("../img/t5.png") no-repeat;
+    position: absolute;
+    top:25%;
+    left: 30%;
+    transition: all 1s;
+    transform: scale(0.5,0.5);
+}
+.con5 .con5d .con5-6 strong{
+    width: 512px;
+    height: 45px;
+    font-size: 24px;
+    font-weight: 500;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    color: #748A9E;
+    transition: all 1s;
+    transform: scale(0.5,0.5);
+}
+/*第六屏*/
+.con6 .con6d .con6-1{
+    width: 819px;
+    height: 299px;
+    background: url("../img/t6.png") no-repeat;
+    position: absolute;
+    top:26%;
+    left: 30%;
+    transition: all 1s;
+    transform: scale(0.6,0.6);
+}
+.con6 .con6d .con6-2 strong{
+    width: 612px;
+    height: 46px;
+    font-size: 24px;
+    font-weight: 600;
+    position: absolute;
+    top: 16%;
+    left: 30%;
+    color: #748A9E;
+    transition: all 1s;
+    transform: scale(0.6,0.6);
+}
+.con6 .con6d .con6-3 p{
+    width: 100%;
+    height: 100%;
+    line-height: 1em;
+    font-size: 14px;
+    position: absolute;
+    top:65%;
+    left: 115%;
+    z-index: 12;
+    opacity: 0;
+    transition: all 1s;
+}
+.con6 .con6d .con6-4{
+    color:#fff;
+    width: 597px;
+    height: 284px;
+    position: absolute;
+    top:45%;
+    left: -50%;
+    opacity: 0;
+    transition: all 1s;
+    /*transition-delay: 2s;*/
+    z-index: 9999;
+    background: url("../img/bg62.png") no-repeat;
+}
+.con6 .con6d .con6-5{
+    position: absolute;
+    top: -50%;
+    left: 0;
+    width: 100%;
+    height: 545px;
+    background: url("../img/bg61.png");
+    opacity: 0;
+    transition: all 1s;
+}
+/*第七屏*/
+.con7 .con7d .con7-1{
+    width: 819px;
+    height: 299px;
+    background: url("../img/t7.png") no-repeat;
+    position: absolute;
+    top:26%;
+    left: 30%;
+    transition: all 1s;
+    transform: scale(0.6,0.6);
+}
+.con7 .con7d .con7-2 strong{
+    width: 612px;
+    height: 46px;
+    font-size: 24px;
+    font-weight: 600;
+    position: absolute;
+    top: 16%;
+    left: 30%;
+    color: #748A9E;
+    transition: all 1s;
+    transform: scale(0.6,0.6);
+}
+.con7 .con7d .con7-3{
+    width: 1600px;
+    height: 209px;
+    background: url("../img/bg74.png");
+    position: absolute;
+    top: 68%;
+    left: 0%;
+    z-index: 10;
+}
+.con7 .con7d .con7-4{
+    width: 651px;
+    height: 231px;
+    background: url("../img/bg73.png");
+    position: absolute;
+    left: 8%;
+    top: 45%;
+}
+.con7 .con7d .con7-5{
+    width: 699px;
+    height: 201px;
+   background: url("../img/bg71.png");
+    position: absolute;
+    top :70%;
+    left: 5%;
+    opacity: 0;
+    transition: all 1s;
+}
+.con7 .con7d .con7-6{
+    width: 182px;
+    height: 206px;
+    background: url("../img/bg72.png");
+    position: absolute;
+    top :70%;
+    left: 37%;
+    /*opacity: 1;*/
+    transition: all 1s;
+}
+.con7 .con7d .con7-7{
+    transition-delay: 1.5s;
+}
+.con7 .con7d .con7-7 p{
+    width: 420px;
+    color: #EAEFF2;
+    position: absolute;
+    top: 90%;
+    left: 60%;
+    transition: all 1s;
+    opacity: 0;
+    font-size: 15px;
+    transform: scale(0.5,0.5);
+}
+/*第八屏*/
+.con8 .con8d .con8-1{
+    width: 819px;
+    height: 299px;
+    background: url("../img/t8.png") no-repeat;
+    position: absolute;
+    top:26%;
+    left: 30%;
+    transition: all 1s;
+    transform: scale(0.6,0.6);
+}
+.con8 .con8d .con8-2 strong{
+    width: 612px;
+    height: 46px;
+    font-size: 24px;
+    font-weight: 600;
+    position: absolute;
+    top: 16%;
+    left: 30%;
+    color: #848A9E;
+    transition: all 1s;
+    transform: scale(0.6,0.6);
+}
+.con8 .con8d .con8-3{
+    position: absolute;
+    top:55%;
+    left: 10%;
+    width: 100%;
+    height: 215px;
+    background: url("../img/bg81.png");
+}
+.con8 .con8d .con8-4 p{
+    font-size: 16px;
+    color:#98a7c6;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:40%;
+    left: 30%;
+    opacity: 0;
+    transition: all 1s;
+    transition-delay: 2s;
+    z-index: 9999;
+}
+.con8 .con8d .con8-5{
+    width: 164px;
+    height: 117px;
+    background: url("../img/bg82.png") no-repeat;
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    opacity: 0;
+    transition: all 1s;
+    transition-delay: 0.7s
+}
+.con8 .con8d .con8-6{
+    width: 164px;
+    height: 117px;
+    background: url("../img/bg83.png") no-repeat;
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    opacity: 0;
+    transition: all 1s;
+    transition-delay: 1.5s
+}
+.con8 .con8d .con8-7{
+    width: 164px;
+    height: 117px;
+    background: url("../img/bg84.png") no-repeat;
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    opacity: 0;
+    transition: all 1s;
+    transition-delay: 2s
+}
+/*第九屏*/
+.con9 .con9d .con9-1 strong{
+    width: 612px;
+    height: 46px;
+    font-size: 24px;
+    font-weight: 600;
+    position: absolute;
+    top: 16%;
+    left: 30%;
+    color: #848A9E;
+    opacity: 0;
+    transition: all 1s;
+    transform: scale(0.6,0.6);
+}
+.con9 .con9d .con9-2{
+    width: 819px;
+    height: 299px;
+    background: url("../img/t9.png") no-repeat;
+    position: absolute;
+    top:26%;
+    left: 30%;
+    opacity: 0;
+    transition: all 1s;
+    transform: scale(0.6,0.6);
+}
+.con9 .con9d .con9-3{
+    width: 89px;
+    height: 90px;
+    background: url("../img/yixin.png");
+    position: absolute;
+    top: 23%;
+    left:22%;
+    opacity: 0;
+    transition: all 1s;
+    transform: scale(0.6,0.6);
+    z-index: 100;
+}
+.con9 .con9d .con9-4{
+    height: 100%;
+    width: 340px;
+    background: url("../img/bg91.png") no-repeat;
+    position: absolute;
+    top: 20%;
+    left:-30%;
+    /*opacity: 0;*/
+    transition: all 1s;
+}
+.con9 .con9d .con9-4 p{
+    position: relative;
+    font-size: 16px;
+    color: #fff;
+    top: 50%;
+    left:20%;
+    border-right: 1px solid #13AB86;
+}
+.con9 .con9d .con9-5{
+    height: 100%;
+    width: 340px;
+    background: url("../img/bg92.png") no-repeat;
+    position: absolute;
+    top: 20%;
+    left:40%;
+    opacity: 0;
+    transition: all 1s;
+}
+.con9 .con9d .con9-5 p{
+    position: relative;
+    font-size: 16px;
+    color: #fff;
+    top: 50%;
+    opacity: 0;
+    left:10%;
+}
+.con9 .con9d .con9-6{
+    height: 100%;
+    width: 340px;
+    background: url("../img/bg93.png") no-repeat;
+    position: absolute;
+    top: 20%;
+    right:-30%;
+    /*opacity: 0;*/
+    transition: all 1s;
+}
+.con9 .con9d .con9-6 p{
+    position: relative;
+    font-size: 16px;
+    color: #fff;
+    top: 50%;
+    right:10%;
+    padding-left: 130px;
+    border-left: 1px solid #13AB86;
+}
+/*第十屏*/
+.con10 .con10d{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: url("../img/bg101.png")no-repeat;
+}
+.con10 .con10d .con10-1{
+    height: 79px;
+    width: 500px;
+    background: url("../img/bg102.png") no-repeat;
+    position: absolute;
+    top: 25%;
+    left: 33%;
+    transition: all 1s;
+    transform: scale(0.5,0.5);
+}
+.con10 .con10d .con10-2{
+    height: 37px;
+    width: 500px;
+    background: url("../img/bg103.png") no-repeat;
+    position: absolute;
+    top: 43%;
+    left: 30%;
+
+    transition: all 1s;
+    transform: scale(0,0);
+}
+.con10 .con10d .con10-3{
+    width: 254px;
+    height: 70px;
+    background: url("../img/btn.png");
+    position: absolute;
+    left: 40%;
+    top: 100%;
+    transition: all 1s;
+    transition-delay: 0.7s;
+}
